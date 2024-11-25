@@ -1,0 +1,27 @@
+body{
+    background-image: url("dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttons{
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: background-color 0.15s;
+}
+
+.btn:hover{
+    background-color: gray;
+}
+
+.btn:active{
+    background-color: rgb(218, 94, 94);
+}
+
